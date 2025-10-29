@@ -339,7 +339,7 @@ Notes:
   - Use `Enum(Name)` in your field `ty` and string values in records. ReBase converts them to PascalCase enumerators (digit-leading values are prefixed with `V`).
 
 - How do I speed up lookup?
-  - The generated APIs include linear `find_*` helpers. For hot paths, build your own hash maps at startup, or we can add an optional index generator if needed.
+  - The generated APIs include linear `find_*` helpers. For hot paths, build your own hash maps at startup, or contribute by adding an optional index generator if needed.
 
 --------------------------------------------------------------------------------
 
